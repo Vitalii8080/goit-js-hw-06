@@ -27,7 +27,11 @@
 // console.log(getNum(object)) // 2
 
 // Write code under this line
-//const getUserNames = array => array;
+Ответ **
+//const getUserNames = array => array.map(({name}) => name);
+ ***
+
+
 
 // const users = [
 //   { name: 'Mango', isActive: true },
@@ -35,7 +39,7 @@
 //   { name: 'Ajax', isActive: true },
 // ];
 
-// const getUserNames = users => users.map(({ name }) => name);
+// const getUserNames = users => users.map(({name}) => name);
 
 // console.log(getUserNames(users));
 

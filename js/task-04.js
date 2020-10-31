@@ -49,6 +49,6 @@
 //   },
 // ];
 
-// const getInactiveUsers = array => array.filter(({ isActive }) => !isActive);
+// const getInactiveUsers = array => array.filter(({isActive}) => !isActive);
 
 // console.log(getInactiveUsers(users));

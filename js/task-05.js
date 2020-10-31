@@ -36,7 +36,7 @@
 // ];
 
 // const getUserWithEmail = (array, mail) =>
-//   array.find(({ email }) => email == mail);
+//   array.find(({email}) => email == mail);
 
 // console.log(getUserWithEmail(users, 'rossvazquez@xinware.com'));
 // console.log(getUserWithEmail(users, 'blackburndotson@furnigeer.com'));
