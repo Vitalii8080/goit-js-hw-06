@@ -56,13 +56,14 @@
 //     age: 38,
 //   },
 // ];
-
+1 решение ***
 // const getSortedUniqueSkills = array =>
-//   array
-//     .reduce((acc, { skills }) => [...acc, ...skills], [])
-//     // return array.reduce((acc, item) => [...acc, item.skills], []);
-//     .filter((current, index, arr) => arr.indexOf(current) === index)
-//     .sort();
+//   array.reduce((newArray, { skills }) => {
+   // const newSkill = skills.filter(el => !newArray.includes(el));
+   // console.log(newSkill);
+   // return [...newArray, ...newSkill];
+ // }, []).sort();
+//  ***   
 
 // console.log(getSortedUniqueSkills(users));
 
